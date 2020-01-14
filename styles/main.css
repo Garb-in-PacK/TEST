@@ -1,0 +1,97 @@
+ 
+ 
+ body {
+            background: #D0C7B8;
+            padding: 0;
+			width: 100x;
+			height: 100;
+			}
+		
+.white_body
+{
+	 background: white;
+	 min-height: 500px;
+	   display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ 
+}
+.gray_body
+{
+	height: 95%;
+	width:95%;
+	margin: 0 auto;
+	min-height:50px;
+	border-radius: 25px;
+	background-image: radial-gradient(rgb(249, 249, 252), rgb(244, 244, 246), rgb(238, 238, 241), rgb(233, 233, 235), rgb(228, 227, 229), rgb(223, 222, 224), rgb(217, 216, 218), rgb(212, 211, 213), rgb(207, 205, 207), rgb(202, 200, 201), rgb(196, 194, 196), rgb(191, 189, 190));
+	 flex-grow: 3;
+	 
+	 
+}
+.cost
+{
+	height: 5%;
+	min-height:15px;
+	
+}
+
+.cost2
+{
+	height: 10%;
+	min-height:65px;
+
+}
+
+.center-img
+{
+
+	float: right;
+	
+	 /* добавили */
+
+
+}
+
+.action_sector
+{
+	 background: white;
+	 opacity: 0.7;
+	 height: 85%;
+	 width:90%;
+	 min-height: 200px;
+	 margin: 0 auto;
+	 border-width: 1px ;
+	 border-color: Orange; /* Цвет границы */ 
+     border-style: solid;
+	font-size:  20px;
+	vertical-align:bottom;
+	
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+
+
+#grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 2vw;
+  }
+#grid > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+
+
+.center-me {
+  
+}
